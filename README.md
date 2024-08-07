@@ -15,6 +15,13 @@ This is my new resume made using [LaTeX](https://www.latex-project.org/), high-q
 
 \*\* You can also try dedicated Tex editors.
 
+NOTE:
+if you want to use a smaller version of the tex distro like basictex, you'll need to install few packages. so use below command.
+
+```bash
+sudo tlmgr install array enumitem ragged2e geometry fancyhdr xcolor iftex xifthen etoolbox setspace fontspec unicode-math fontawesome sourcesanspro tcolorbox parskip hyperref ifmtarg
+```
+
 ### Clone the repo
 
 ```bash
